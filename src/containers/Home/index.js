@@ -65,7 +65,7 @@ export default class Home extends Component {
                     {
                         this.state.horses.length > 0 ?
                             <View>
-                                <Text style={styles.title}>Horses</Text>
+                                <Text style={styles.title}>Horses: Each horse has a number(represented in sequential order in small font) and speed (number with big font that are random) in the table below</Text>
                                 <View style={styles.tableCotnainer}>
                                     {
                                         this.state.horses.map((_horses, index) => (
@@ -88,7 +88,7 @@ export default class Home extends Component {
                                 {
                                     this.state.executed &&
                                     <View>
-                                        <Text style={styles.title}>First round races conducted</Text>
+                                        <Text style={styles.title}>First round races</Text>
                                         {
                                             this.state.horses.map((_horses, index) => (
                                                 <View style={styles.row}>
