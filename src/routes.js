@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import { BackHandler } from "react-native";
 import { Router, Scene } from "react-native-router-flux";
 
-import Home from "./containers/home";
-import Login from "./containers/login";
+import Home from "./containers/Home";
+import Login from "./containers/Login";
 
 const propTypes = {
     isLoggedin: PropTypes.bool
@@ -26,10 +26,10 @@ export default class Routes extends Component {
         return (
             <Router {...this.props} backAndroidHandler={this.handleBackButton}>
                 <Scene>
-                    <Scene key="auth" hideNavBar={true} initial={!isLoggedin}>
+                    <Scene key="auth" hideNavBar={true} initial={isLoggedin}>
                         <Scene key="login" component={Login} />
                     </Scene>
-                    <Scene key="app" hideNavBar={true} initial={isLoggedin}>
+                    <Scene key="app" hideNavBar={true} initial={!isLoggedin}>
                         <Scene key="home" component={Home} />
                     </Scene>
                 </Scene>

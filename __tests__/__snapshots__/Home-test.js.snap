@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Test 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "paddingBottom": 86.5,
+        "paddingHorizontal": 10,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View>
+      <View>
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 10,
+            }
+          }
+        >
+          Some points to keep in mind
+        </Text>
+        <Text>
+          In real life, we can decide the position of the horses in the race just by observing which horse reached the finishing line first, second and so on even without knowing thr actual speed of the horses.
+          
+
+          
+
+          When it comes to logical and programatical scope, we cannot use the above approach and can determine the position only by using quantative analysis.
+          
+
+          
+
+          A horse can run at a particular speed and that becomes characterstics of horses that can be used to compare and produce a result in our algorithm.
+          
+
+          
+
+          There are 2 ways the horses can be assigned speed. One is by entering the data manually and another by creating random numbers that can be used as the speed of the horses.
+          
+
+          
+
+          As the requirement said, I'm given 25 horses. THe below steps are used to achive the same.
+          
+
+          
+
+          1) So basically how works is, it works is, it divides the horses into 5 groups with each group consisting of 5 horses.
+          
+
+          2) We let the 5 groups race and record 1st, 2nd and 3rd of all the groups.
+          
+
+          3) We let the horses race that have come 1st in all the groups and record the 1st, 2nd and 3rd.
+          
+
+          4) The horse that came 1st is the fastest of all the horses, there is a chance that it's group has 2nd and 3rd fastes horses.
+          
+
+          So we add all the 2 horses that came 2nd and 3rd in that group to the final race.
+          
+
+          5) The horse that came 2nd in the race, it's group might have 3rd fastest horse. So we pick the horse that ranked 2nd in the group for the last race.
+          
+
+          6) The horse that came third also gets to join the final race.
+          
+
+          7) We let these chosen horses race. The one that came 1st and 2nd in the race, they are 2nd and 3rd fastest over all.
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "left": 0,
+        "padding": 10,
+        "position": "absolute",
+        "width": 750,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0D4FA1",
+          "borderRadius": 4,
+          "height": 66.5,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+          }
+        }
+      >
+        Randomise
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0D4FA1",
+          "borderRadius": 4,
+          "height": 66.5,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+          }
+        }
+      >
+        Execute
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`HomeTest 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "paddingBottom": 86.5,
+        "paddingHorizontal": 10,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View>
+      <View>
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 10,
+            }
+          }
+        >
+          Some points to keep in mind
+        </Text>
+        <Text>
+          In real life, we can decide the position of the horses in the race just by observing which horse reached the finishing line first, second and so on even without knowing thr actual speed of the horses.
+          
+
+          
+
+          When it comes to logical and programatical scope, we cannot use the above approach and can determine the position only by using quantative analysis.
+          
+
+          
+
+          A horse can run at a particular speed and that becomes characterstics of horses that can be used to compare and produce a result in our algorithm.
+          
+
+          
+
+          There are 2 ways the horses can be assigned speed. One is by entering the data manually and another by creating random numbers that can be used as the speed of the horses.
+          
+
+          
+
+          As the requirement said, I'm given 25 horses. THe below steps are used to achive the same.
+          
+
+          
+
+          1) So basically how works is, it works is, it divides the horses into 5 groups with each group consisting of 5 horses.
+          
+
+          2) We let the 5 groups race and record 1st, 2nd and 3rd of all the groups.
+          
+
+          3) We let the horses race that have come 1st in all the groups and record the 1st, 2nd and 3rd.
+          
+
+          4) The horse that came 1st is the fastest of all the horses, there is a chance that it's group has 2nd and 3rd fastes horses.
+          
+
+          So we add all the 2 horses that came 2nd and 3rd in that group to the final race.
+          
+
+          5) The horse that came 2nd in the race, it's group might have 3rd fastest horse. So we pick the horse that ranked 2nd in the group for the last race.
+          
+
+          6) The horse that came third also gets to join the final race.
+          
+
+          7) We let these chosen horses race. The one that came 1st and 2nd in the race, they are 2nd and 3rd fastest over all.
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "left": 0,
+        "padding": 10,
+        "position": "absolute",
+        "width": 750,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0D4FA1",
+          "borderRadius": 4,
+          "height": 66.5,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+          }
+        }
+      >
+        Randomise
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0D4FA1",
+          "borderRadius": 4,
+          "height": 66.5,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+          }
+        }
+      >
+        Execute
+      </Text>
+    </View>
+  </View>
+</View>
+`;
